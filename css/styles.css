@@ -1,0 +1,185 @@
+:root {
+  --IRIS: #4d5ae5;
+  --WHITE: #fff;
+  --NAVY-BLUE: #2e2f42;
+  --SLATE: #434455;
+  --CLOUD: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--SLATE);
+}
+
+.container {
+  width: 1158px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.header {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .d-flex {
+  align-items: center;
+}
+
+header .logo {
+  margin-right: 76px;
+}
+
+.header nav .list {
+  gap: 40px;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16667;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: var(--IRIS);
+}
+
+nav .logo {
+  color: var(--NAVY-BLUE);
+}
+
+header ul.list li a {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--IRIS);
+}
+
+.nav-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.email-telno {
+  gap: 40px;
+}
+
+.header-email-telno {
+  color: var(--SLATE, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+ul.list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+
+.bg-dark.hero {
+  background-color: var(--NAVY-BLUE);
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: white;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07143;
+  letter-spacing: 1.12px;
+}
+
+.hero .order-service-button {
+  color: var(--WHITE);
+  background-color: var(--IRIS);
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 16px 32px;
+}
+
+.hero .order-service-button:hover {
+  color: var(--SLATE);
+}
+
+.objectives {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.section-objectives {
+  padding: 156px;
+  justify-content: center;
+}
+
+.list-objectives {
+  gap: 24px;
+}
+
+.section-header {
+  text-align: center;
+  color: var(--NAVY-BLUE);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+li.team {
+  text-align: center;
+}
+
+.bg-dark.footer {
+  background-color: var(--NAVY-BLUE);
+  height: 312px;
+}
+
+.footer {
+  color: white;
+}
+
+footer .logo {
+  color: var(--CLOUD);
+}
+
+.bg-dark.footer {
+  padding-top: 101.5px;
+  padding-left: 156px;
+}
